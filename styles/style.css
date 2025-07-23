@@ -14,6 +14,15 @@ height: 100%;
 .primary_color{
     color: #e95a08;
 }
+.main_button{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e95a08;
+    color: #fff;
+}
 .secondary_color{
     color: #8987a1;
 }
@@ -97,4 +106,42 @@ nav{
 .hero_right img{
     width: 100%;
     object-fit: cover;
+}
+.flower_shop_sections{
+    padding: 50px 0;
+}
+.flower_shop_sections h2{
+    text-align: center;
+    font-size: 50px;
+}
+.flower_shop_sections p{
+    font-size: 18px;
+    text-align: center;
+}
+.flower_cart{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    
+   
+
+}
+.flower_cart img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit:cover ;
+}
+.flower_product_page{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.flower_cart p{
+    text-align: center;
+    font-size: 20px;
 }
