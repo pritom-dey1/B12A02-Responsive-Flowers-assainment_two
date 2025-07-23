@@ -96,5 +96,13 @@ A fully responsive flower shop landing page built using **HTML5** and **Vanilla 
 
 ---
 
-## 📁 Folder Structure
+
+
+**Pritom Dey**  
+🎓 CST Student — Bangladesh Sweden Polytechnic Institute
+
+---
+
+✅ All assignment requirements have been implemented, tested, and completed as per Figma design.
+
 
