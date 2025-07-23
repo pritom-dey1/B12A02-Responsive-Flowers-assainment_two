@@ -32,6 +32,10 @@ font-family: "Noto Serif", serif;;
 p{
     font-family: "Inter", sans-serif;
 }
+a{
+        font-family: "Inter", sans-serif;
+
+}
 /* header style  */
 header{
     width: 100%;
@@ -120,19 +124,27 @@ nav{
 }
 .flower_cart{
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
     background-color: #fff;
+    transition: all ease .3s;
     
    
+
+}
+.flower_cart:hover{
+    transform: translateY(-5px);
+         box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 
 }
 .flower_cart img{
     border-radius: 5px;
     width: 100%;
+    
     object-fit:cover ;
 }
 .flower_product_page{
@@ -280,4 +292,38 @@ form{
         font-family: "Inter", sans-serif;
         border: none;
         padding: 14px 18px;
+}
+
+
+/* footer style  */
+footer{
+    display: flex;
+    padding: 70px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_2nd_left{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footer_2nd_left a{
+    
+    text-decoration: none;
+    color: #8987a1;
+}
+.footer_2nd_right{
+    display: flex;
+        gap: 10px;
+
+    flex-direction: column;
+}
+.footer_2nd_right a{
+       text-decoration: none;
+    color: #8987a1; 
+}
+.icon_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
