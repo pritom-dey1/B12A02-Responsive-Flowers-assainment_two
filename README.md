@@ -1,4 +1,4 @@
-# 🌸 Fauget - Flower Shop Website
+# 🌸 Flower Shop Website
 
 A fully responsive flower shop landing page built using **HTML5** and **Vanilla CSS**. This project was created as part of an assignment and follows all requirements provided via Figma design.
 
