@@ -144,7 +144,8 @@ nav{
 .flower_cart img{
     border-radius: 5px;
     width: 100%;
-    
+     aspect-ratio: 3 / 4;
+    object-position: center;
     object-fit:cover ;
 }
 .flower_product_page{
